@@ -1,7 +1,2 @@
-checkPalindrome = inputString => {
-  inputString2 = inputString
-    .split("")
-    .reverse()
-    .join("");
-  return inputString === inputString2 ? true : false;
-};
+checkPalindrome =(inputString) => inputString ==== inputString.split("").reverse().join("") ? true : false;
+;
